@@ -1,0 +1,77 @@
+.bgpic{
+  background-image: url(../images/udaipur.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+  height: 800px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.btn{
+ margin-top: 30px;
+ border-radius: 5px;
+ border-style: dotted;
+ width: 100px;
+ transition-property: width;
+ transition-timing-function: linear;
+ transition-delay: 0.2s;
+ transition-duration: 0.7s;
+}
+.btn:hover{
+ width: 200px;
+}
+h6{
+ margin-top: 15px;
+ font-family: verdana;
+ font-size: 27px;
+}
+.headerset h1{
+ font-family: cursive;
+ font-size: 70px;
+ transition: 0.6s linear;
+}
+.navbar-nav li a{
+ color: floralwhite;
+ transition: 0.5s ease;
+ margin: 18px;
+}
+.headerset h1:hover{
+ font-size: 75px;
+}
+.navbar-nav li a:hover{
+ background-color: black;
+}
+.navbar{
+ transition: 0.4s;
+}
+.navbar:hover{
+ transition-timing-function: linear;
+}
+.headerset h6{
+ font-size: 30px;
+ transition: 0.6s linear;
+}
+.headerset h6:hover{
+ font-size: 35px;
+ transform: rotate(180deg);
+}
+.card{
+ border-radius: 14px;
+ margin: 30px;
+ padding: 20px;
+}
+.card h1{
+ font-family: fantasy;
+ font-weight: bold;
+}
+.posts{
+ margin-top: 30px;
+ padding: 20px;
+ transition: 0.6s ease;
+}
+.card:hover{
+ opacity: 0.3;
+}
+.page-footer{
+ background-color: lightsteelblue;
+}
